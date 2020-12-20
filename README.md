@@ -9,49 +9,56 @@ current available endpoints:
   no params required
   
   POST: create new store
+  ```
   {
 	"name": "Chimichangas 4 U & me",
   "owner": "John Doe",
   "address": "223 max way",
   "rnc": "111111111"
   }
-  
+  ```
   
 - /stores/:id
   GET: obtain details for a given store
   no params required
   
   PUT: update details for a given store
+  ```
   {
 	"name": "Chimichangas 4 U & me",
   "owner": "John Doe",
   "address": "223 max way",
   "rnc": "111111111"
   }
+  ```
   
   DELETE: delete a given store
   no params required
   
 - /stores/:id/item
   POST: create a new item within the scope of a given store
+  ```
   {             
   "name": "ButterFinger 2",
   "description": "Chocolate Bar",
   "value": 1.05,
   "availability": 100
    }
+   ```
   
 - /stores/:id/item/:id
   GET: obtain details for a given item
   no params required
   
   PUT: update details for a given item
+  ```
   {             
   "name": "ButterFinger 2",
   "description": "Chocolate Bar",
   "value": 1.05,
   "availability": 100
    }
+  ```
   
   DELETE: delete a given item
   no params required
