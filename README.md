@@ -1,7 +1,3 @@
-# shopAPI
-node js project (Express) that provides API for CRUD operations on stores and their selling items
-
-
 # shop API
 
 nodeJs project built with Express to provide API capabilities to Create, Read, Update and Delet store's and storeIten's (sellable goods)
