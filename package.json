@@ -1,0 +1,21 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "description": "basic CRUD applications for shops and items",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.8",
+    "mongoose-autopopulate": "^0.12.3",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "FLUCCA",
+  "license": "ISC"
+}
