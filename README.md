@@ -1,5 +1,8 @@
 # shop API
 
+SPA built using ReactJs that allows CRUD operations on shops and shop items.
+
+
 nodeJs project built with Express to provide API capabilities to Create, Read, Update and Delet store's and storeIten's (sellable goods)
 
 current available endpoints:
