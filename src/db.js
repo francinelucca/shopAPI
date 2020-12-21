@@ -3,7 +3,7 @@ const winston = require('winston');
 
 class Database {
     constructor() {
-        this.mongoURI = 'mongodb://localhost:27017/shop';
+        this.mongoURI = 'mongodb://localhost:27017/shopDB';
         this.connect();
     }
 

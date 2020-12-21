@@ -2,7 +2,9 @@ const mongoose = require('mongoose');
 const { StoreModel } = require('../models');
 const NotFoundError = require('../constants/errors/NotFoundError');
 
-const createStore = async (storeInfo) => new StoreModel(storeInfo).save();
+const createStore = async (storeInfo) => {
+    return new StoreModel(storeInfo).save();
+}
 
 const findStoreById = async (storeId) => {
     const store = await StoreModel.findById(storeId).lean().exec();

@@ -7,7 +7,6 @@ const ItemModel = new Schema(
       desc: "The item's name.",
       trim: true,
       type: String,
-      index: true,
       unique: true,
       required: true,
     },

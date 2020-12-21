@@ -4,11 +4,13 @@
   "description": "basic CRUD applications for shops and items",
   "main": "index.js",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-async-handler": "^1.1.4",
     "mongodb": "^3.6.3",
     "mongoose": "^5.11.8",
     "mongoose-autopopulate": "^0.12.3",
+    "morgan": "^1.10.0",
     "winston": "^3.3.3"
   },
   "devDependencies": {},
